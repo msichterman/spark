@@ -4,9 +4,10 @@ export default config({
   storage: {
     kind: 'github',
     repo: {
-      owner: 'mattsichterman',
+      owner: 'msichterman',
       name: 'spark'
-    }   
+    },
+    pathPrefix: 'apps/landing'
   },
   collections: {
     posts: collection({
